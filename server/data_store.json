@@ -1,0 +1,1557 @@
+{
+  "admins": [
+    {
+      "id": "admin_1",
+      "name": "Dr. Sarah Connor",
+      "email": "admin@test.com",
+      "role": "admin"
+    }
+  ],
+  "tests": {
+    "test_demo_101": {
+      "id": "test_demo_101",
+      "title": "Data Structures & Algorithms Mastery Test",
+      "subject": "Computer Science",
+      "topic": "Stacks, Queues and Trees",
+      "description": "Comprehensive evaluation covering stack/queue operations, circular queues, binary tree traversals, and time complexities.",
+      "instructions": "Please ensure a stable internet connection. Each question has an individual timer. Once time expires, the answer is locked and auto-advanced.",
+      "createdAt": "2026-09-04T11:21:51.955Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 22,
+      "uniqueLink": "test_demo_101",
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the primary time complexity of push and pop operations in a Stack?",
+          "questionType": "mcq",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctAnswer": "O(1)",
+          "explanation": "Stack operates on LIFO principle, accessing top element directly in O(1) constant time.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 35
+        },
+        {
+          "id": "q2",
+          "question": "True or False: In a Queue, elements are inserted at the front and deleted from the rear.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "In a Queue, elements are ENQUEUED at the rear and DEQUEUED from the front (FIFO).",
+          "difficulty": "medium",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q3",
+          "question": "Which tree traversal visits the root node BEFORE its child subtrees?",
+          "questionType": "mcq",
+          "options": [
+            "Pre-order Traversal",
+            "In-order Traversal",
+            "Post-order Traversal",
+            "Level-order Traversal"
+          ],
+          "correctAnswer": "Pre-order Traversal",
+          "explanation": "Pre-order visits (Root -> Left -> Right). In-order visits (Left -> Root -> Right). Post-order visits (Left -> Right -> Root).",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q4",
+          "question": "A queue condition where rear reaches maximum size while front > 0 is fixed by using a _____ queue.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "circular",
+          "explanation": "Circular queues reuse dequeued spaces by wrapping pointers modulo array length.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q5",
+          "question": "Explain why binary search tree lookup degrades to O(n) worst-case time complexity.",
+          "questionType": "short_answer",
+          "correctAnswer": "When the tree becomes completely unbalanced/skewed, behaving like a linked list.",
+          "explanation": "If elements are inserted in sorted order, the BST becomes a single chain of height n.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 90
+        }
+      ]
+    },
+    "test_1788521376122": {
+      "id": "test_1788521376122",
+      "title": "machine learning - working of machine learning",
+      "subject": "machine learning",
+      "topic": "working of machine learning",
+      "description": "should cover what are the tpes and what it actually do",
+      "instructions": "should cover all types and what it should actually does",
+      "questions": [
+        {
+          "id": "q_1788521331344_1",
+          "question": "True or False: In machine learning, working of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521331344_2",
+          "question": "In machine learning, the primary structure used to manage working of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "working",
+          "explanation": "The component directly handles memory and logic operations for working of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521331344_3",
+          "question": "In 2-3 sentences, explain why working of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in working of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521331344_4",
+          "question": "True or False: In machine learning, working of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521331344_5",
+          "question": "In machine learning, the primary structure used to manage working of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "working",
+          "explanation": "The component directly handles memory and logic operations for working of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521331344_6",
+          "question": "In 2-3 sentences, explain why working of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in working of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521331344_7",
+          "question": "True or False: In machine learning, working of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521331344_8",
+          "question": "In machine learning, the primary structure used to manage working of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "working",
+          "explanation": "The component directly handles memory and logic operations for working of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521331345_9",
+          "question": "In 2-3 sentences, explain why working of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in working of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521331345_10",
+          "question": "True or False: In machine learning, working of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T11:29:36.122Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788521376122"
+    },
+    "test_1788521721425": {
+      "id": "test_1788521721425",
+      "title": "machine learning - types of machine learning",
+      "subject": "machine learning",
+      "topic": "types of machine learning",
+      "description": "should cover what is machine learning and what it should do ",
+      "instructions": "should cover what actually machine learning is",
+      "questions": [
+        {
+          "id": "q_1788521692935_1",
+          "question": "True or False: In machine learning, types of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521692935_2",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521692935_3",
+          "question": "In 2-3 sentences, explain why types of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in types of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521692935_4",
+          "question": "True or False: In machine learning, types of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521692935_5",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521692935_6",
+          "question": "In 2-3 sentences, explain why types of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in types of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521692935_7",
+          "question": "True or False: In machine learning, types of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788521692935_8",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788521692935_9",
+          "question": "In 2-3 sentences, explain why types of machine learning is essential when building scaleable applications in machine learning.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in types of machine learning prevents performance bottlenecks as data volume expands.",
+          "difficulty": "hard",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788521692935_10",
+          "question": "True or False: In machine learning, types of machine learning guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T11:35:21.425Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788521721425"
+    },
+    "test_1788522698665": {
+      "id": "test_1788522698665",
+      "title": "machine learning - types of machine learning",
+      "subject": "machine learning",
+      "topic": "types of machine learning",
+      "description": "should cover types of machine learning and its working",
+      "instructions": "Generate questions covering practical applications, core algorithms, edge cases, and code output analysis.",
+      "questions": [
+        {
+          "id": "q_1788522688457_1",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688457_2",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_3",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 90
+        },
+        {
+          "id": "q_1788522688458_4",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_5",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_6",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "hard",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_7",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_8",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_9",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_10",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_11",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T11:51:38.665Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788522698665"
+    },
+    "test_1788522708125": {
+      "id": "test_1788522708125",
+      "title": "machine learning - types of machine learning",
+      "subject": "machine learning",
+      "topic": "types of machine learning",
+      "description": "should cover types of machine learning and its working",
+      "instructions": "Generate questions covering practical applications, core algorithms, edge cases, and code output analysis.",
+      "questions": [
+        {
+          "id": "q_1788522688457_1",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688457_2",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_3",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 90
+        },
+        {
+          "id": "q_1788522688458_4",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_5",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_6",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "hard",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_7",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_8",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_9",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_10",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_11",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T11:51:48.125Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788522708125"
+    },
+    "test_1788522945170": {
+      "id": "test_1788522945170",
+      "title": "Full Stack Verification Test",
+      "subject": "Software Engineering",
+      "topic": "API & Front-End Integration",
+      "description": "Testing dynamic share link generation",
+      "instructions": "Read carefully",
+      "questions": [
+        {
+          "marks": 2,
+          "options": [
+            "True",
+            "False"
+          ],
+          "id": "q_verify_1",
+          "correctAnswer": "True",
+          "question": "Does dynamic share URL generation use window.location.origin?",
+          "explanation": "Using window.location.origin ensures seamless operation across local and production environments.",
+          "timeLimit": 30,
+          "questionType": "true_false",
+          "difficulty": "easy"
+        }
+      ],
+      "settings": {
+        "allowNavigation": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "useQuestionTimers": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60
+      },
+      "createdAt": "2026-09-04T11:55:45.170Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788522945170"
+    },
+    "test_1788523165592": {
+      "id": "test_1788523165592",
+      "title": "Computer Science - Data Structures - Stack & Queue",
+      "subject": "Computer Science",
+      "topic": "Data Structures - Stack & Queue",
+      "description": "Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.",
+      "instructions": "Generate questions covering practical applications, core algorithms, edge cases, and code output analysis.",
+      "questions": [
+        {
+          "id": "q_1788523160182_1",
+          "question": "What is the primary time complexity of push and pop operations in an array-based Stack implementation?",
+          "questionType": "mcq",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctAnswer": "O(1)",
+          "explanation": "Stack operations occur at the top pointer only, requiring constant time O(1) without shifting array elements.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788523160182_2",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523160182_3",
+          "question": "What is a fundamental characteristic of Data Structures - Stack & Queue regarding Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of Data Structures - Stack & Queue",
+            "Legacy secondary pattern in Computer Science",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of Data Structures - Stack & Queue",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of Data Structures - Stack & Queue in Computer Science.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        },
+        {
+          "id": "q_1788523160182_4",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523160182_5",
+          "question": "What is a fundamental characteristic of Data Structures - Stack & Queue regarding Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of Data Structures - Stack & Queue",
+            "Legacy secondary pattern in Computer Science",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of Data Structures - Stack & Queue",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of Data Structures - Stack & Queue in Computer Science.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        },
+        {
+          "id": "q_1788523160182_6",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523160182_7",
+          "question": "In a Queue data structure, elements are removed according to which policy?",
+          "questionType": "mcq",
+          "options": [
+            "FIFO (First In First Out)",
+            "LIFO (Last In First Out)",
+            "Random Access",
+            "Priority Based"
+          ],
+          "correctAnswer": "FIFO (First In First Out)",
+          "explanation": "Queues process items in the order they arrive (First In First Out), similar to a line at a ticket counter.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788523160182_8",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523160182_9",
+          "question": "What is a fundamental characteristic of Data Structures - Stack & Queue regarding Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of Data Structures - Stack & Queue",
+            "Legacy secondary pattern in Computer Science",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of Data Structures - Stack & Queue",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of Data Structures - Stack & Queue in Computer Science.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        },
+        {
+          "id": "q_1788523160182_10",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523160182_11",
+          "question": "What is the primary time complexity of push and pop operations in an array-based Stack implementation?",
+          "questionType": "mcq",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctAnswer": "O(1)",
+          "explanation": "Stack operations occur at the top pointer only, requiring constant time O(1) without shifting array elements.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 30
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T11:59:25.592Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788523165592"
+    },
+    "test_1788523385523": {
+      "id": "test_1788523385523",
+      "title": "machine learning - types of machine learning",
+      "subject": "machine learning",
+      "topic": "types of machine learning",
+      "description": "should cover types of machine learning and its working",
+      "instructions": "Generate questions covering practical applications, core algorithms, edge cases, and code output analysis.",
+      "questions": [
+        {
+          "id": "q_1788522688457_1",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688457_2",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_3",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 90
+        },
+        {
+          "id": "q_1788522688458_4",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_5",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_6",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "hard",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_7",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_8",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_9",
+          "question": "Which fundamental principle governs the core operation of types of machine learning in machine learning?",
+          "questionType": "mcq",
+          "options": [
+            "Optimized systematic processing of types of machine learning",
+            "Random non-deterministic iteration",
+            "Unstructured data traversal",
+            "Linear memory allocation only"
+          ],
+          "correctAnswer": "Optimized systematic processing of types of machine learning",
+          "explanation": "In machine learning, types of machine learning relies on structured, algorithmic execution for predictable results.",
+          "difficulty": "hard",
+          "marks": 4,
+          "timeLimit": 40
+        },
+        {
+          "id": "q_1788522688458_10",
+          "question": "In machine learning, the primary structure used to manage types of machine learning is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "types",
+          "explanation": "The component directly handles memory and logic operations for types of machine learning.",
+          "difficulty": "easy",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788522688458_11",
+          "question": "What is a fundamental characteristic of types of machine learning regarding should cover types of machine learning and its working?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of types of machine learning",
+            "Legacy secondary pattern in machine learning",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of types of machine learning",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of types of machine learning in machine learning.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T12:03:05.523Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 0,
+      "uniqueLink": "test_1788523385523"
+    },
+    "test_1788523430942": {
+      "id": "test_1788523430942",
+      "title": "Computer Science - Data Structures - Stack & Queue",
+      "subject": "Computer Science",
+      "topic": "Data Structures - Stack & Queue",
+      "description": "Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.",
+      "instructions": "Generate questions covering practical applications, core algorithms, edge cases, and code output analysis.",
+      "questions": [
+        {
+          "id": "q_1788523424771_1",
+          "question": "What is the primary time complexity of push and pop operations in an array-based Stack implementation?",
+          "questionType": "mcq",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+          ],
+          "correctAnswer": "O(1)",
+          "explanation": "Stack operations occur at the top pointer only, requiring constant time O(1) without shifting array elements.",
+          "difficulty": "easy",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788523424771_2",
+          "question": "True or False: In Computer Science, Data Structures - Stack & Queue guarantees deterministic behavior when given identical inputs.",
+          "questionType": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Deterministic algorithms produce consistent outputs for uniform inputs under standard execution conditions.",
+          "difficulty": "medium",
+          "marks": 2,
+          "timeLimit": 30
+        },
+        {
+          "id": "q_1788523424771_3",
+          "question": "In Computer Science, the primary structure used to manage Data Structures - Stack & Queue is known as a _____.",
+          "questionType": "fill_in_blanks",
+          "correctAnswer": "Data",
+          "explanation": "The component directly handles memory and logic operations for Data Structures - Stack & Queue.",
+          "difficulty": "hard",
+          "marks": 3,
+          "timeLimit": 45
+        },
+        {
+          "id": "q_1788523424771_4",
+          "question": "In 2-3 sentences, explain why Data Structures - Stack & Queue is essential when building scaleable applications in Computer Science.",
+          "questionType": "short_answer",
+          "correctAnswer": "It provides standardized structure, improves code readability, and ensures optimal resource management.",
+          "explanation": "Clear architectural design in Data Structures - Stack & Queue prevents performance bottlenecks as data volume expands.",
+          "difficulty": "easy",
+          "marks": 5,
+          "timeLimit": 120
+        },
+        {
+          "id": "q_1788523424771_5",
+          "question": "What is a fundamental characteristic of Data Structures - Stack & Queue regarding Covering push/pop operations, LIFO vs FIFO principles, circular queues, and worst-case time complexities.?",
+          "questionType": "mcq",
+          "options": [
+            "Primary implementation mechanism of Data Structures - Stack & Queue",
+            "Legacy secondary pattern in Computer Science",
+            "Alternative non-standard approach",
+            "Deprecated legacy protocol"
+          ],
+          "correctAnswer": "Primary implementation mechanism of Data Structures - Stack & Queue",
+          "explanation": "The primary mechanism is specifically engineered for optimal handling of Data Structures - Stack & Queue in Computer Science.",
+          "difficulty": "medium",
+          "marks": 3,
+          "timeLimit": 60
+        }
+      ],
+      "settings": {
+        "useQuestionTimers": true,
+        "shuffleQuestions": true,
+        "shuffleOptions": true,
+        "allowNavigation": true,
+        "allowReview": true,
+        "enableInstantResult": true,
+        "passingMarks": 60,
+        "negativeMarking": 0,
+        "attemptsAllowed": 1,
+        "totalDuration": 15
+      },
+      "createdAt": "2026-09-04T12:03:50.942Z",
+      "status": "published",
+      "adminId": "admin_1",
+      "viewCount": 4,
+      "uniqueLink": "test_1788523430942"
+    }
+  },
+  "attempts": {
+    "att_1": {
+      "id": "att_1",
+      "testId": "test_demo_101",
+      "studentName": "Alex Johnson",
+      "rollNumber": "CS2024-001",
+      "email": "alex@univ.edu",
+      "status": "completed",
+      "currentQuestionIndex": 4,
+      "answeredCount": 5,
+      "remainingSeconds": 0,
+      "score": 13,
+      "totalMarks": 15,
+      "percentage": 86.6,
+      "passed": true,
+      "startedAt": "2026-09-04T10:21:51.957Z",
+      "submittedAt": "2026-09-04T10:31:51.957Z",
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedAnswer": "O(1)",
+          "isCorrect": true,
+          "timeTaken": 12
+        },
+        "q2": {
+          "questionId": "q2",
+          "selectedAnswer": "False",
+          "isCorrect": true,
+          "timeTaken": 18
+        },
+        "q3": {
+          "questionId": "q3",
+          "selectedAnswer": "Pre-order Traversal",
+          "isCorrect": true,
+          "timeTaken": 25
+        },
+        "q4": {
+          "questionId": "q4",
+          "selectedAnswer": "circular",
+          "isCorrect": true,
+          "timeTaken": 20
+        },
+        "q5": {
+          "questionId": "q5",
+          "selectedAnswer": "Skews into linked list",
+          "isCorrect": true,
+          "timeTaken": 65
+        }
+      }
+    },
+    "att_2": {
+      "id": "att_2",
+      "testId": "test_demo_101",
+      "studentName": "Maria Garcia",
+      "rollNumber": "CS2024-042",
+      "email": "maria@univ.edu",
+      "status": "completed",
+      "currentQuestionIndex": 4,
+      "answeredCount": 5,
+      "remainingSeconds": 0,
+      "score": 10,
+      "totalMarks": 15,
+      "percentage": 66.6,
+      "passed": true,
+      "startedAt": "2026-09-04T10:51:51.957Z",
+      "submittedAt": "2026-09-04T11:01:51.957Z",
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedAnswer": "O(1)",
+          "isCorrect": true,
+          "timeTaken": 10
+        },
+        "q2": {
+          "questionId": "q2",
+          "selectedAnswer": "True",
+          "isCorrect": false,
+          "timeTaken": 22
+        },
+        "q3": {
+          "questionId": "q3",
+          "selectedAnswer": "Pre-order Traversal",
+          "isCorrect": true,
+          "timeTaken": 30
+        },
+        "q4": {
+          "questionId": "q4",
+          "selectedAnswer": "circular",
+          "isCorrect": true,
+          "timeTaken": 35
+        },
+        "q5": {
+          "questionId": "q5",
+          "selectedAnswer": "When elements are small",
+          "isCorrect": false,
+          "timeTaken": 40
+        }
+      }
+    },
+    "att_3": {
+      "id": "att_3",
+      "testId": "test_demo_101",
+      "studentName": "David Smith",
+      "rollNumber": "CS2024-089",
+      "email": "david@univ.edu",
+      "status": "attempting",
+      "currentQuestionIndex": 2,
+      "answeredCount": 2,
+      "remainingSeconds": 25,
+      "score": 5,
+      "totalMarks": 15,
+      "percentage": 33.3,
+      "startedAt": "2026-09-04T11:16:51.957Z",
+      "answers": {
+        "q1": {
+          "questionId": "q1",
+          "selectedAnswer": "O(1)",
+          "isCorrect": true,
+          "timeTaken": 15
+        },
+        "q2": {
+          "questionId": "q2",
+          "selectedAnswer": "False",
+          "isCorrect": true,
+          "timeTaken": 20
+        }
+      }
+    },
+    "att_1788521167740_523": {
+      "id": "att_1788521167740_523",
+      "testId": "test_demo_101",
+      "studentName": "harsha",
+      "rollNumber": "324UAM021",
+      "email": "chevuruharsha07@gmail.com",
+      "status": "completed",
+      "currentQuestionIndex": 0,
+      "answeredCount": 0,
+      "remainingSeconds": 90,
+      "score": 0,
+      "totalMarks": 15,
+      "percentage": 0,
+      "startedAt": "2026-09-04T11:26:07.740Z",
+      "answers": {},
+      "shuffledQuestionIds": [
+        "q5",
+        "q2",
+        "q3",
+        "q1",
+        "q4"
+      ],
+      "shuffledOptionsMap": {
+        "q2": [
+          "True",
+          "False"
+        ],
+        "q3": [
+          "Pre-order Traversal",
+          "Post-order Traversal",
+          "Level-order Traversal",
+          "In-order Traversal"
+        ],
+        "q1": [
+          "O(1)",
+          "O(log n)",
+          "O(n^2)",
+          "O(n)"
+        ]
+      },
+      "passed": false,
+      "submittedAt": "2026-09-04T11:26:32.179Z"
+    },
+    "att_1788521525344_47": {
+      "id": "att_1788521525344_47",
+      "testId": "test_demo_101",
+      "studentName": "harsha",
+      "rollNumber": "324UAM021",
+      "email": "chevuruharsha07@gmail.com",
+      "status": "completed",
+      "currentQuestionIndex": 4,
+      "answeredCount": 3,
+      "remainingSeconds": 30,
+      "score": 2,
+      "totalMarks": 15,
+      "percentage": 13,
+      "startedAt": "2026-09-04T11:32:05.344Z",
+      "answers": {
+        "q2": {
+          "questionId": "q2",
+          "selectedAnswer": "False",
+          "isCorrect": true,
+          "timeTaken": 14
+        },
+        "q3": {
+          "questionId": "q3",
+          "selectedAnswer": "In-order Traversal",
+          "isCorrect": false,
+          "timeTaken": 10
+        },
+        "q1": {
+          "questionId": "q1",
+          "selectedAnswer": "O(n^2)",
+          "isCorrect": false,
+          "timeTaken": 8
+        }
+      },
+      "shuffledQuestionIds": [
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q1"
+      ],
+      "shuffledOptionsMap": {
+        "q2": [
+          "True",
+          "False"
+        ],
+        "q3": [
+          "In-order Traversal",
+          "Pre-order Traversal",
+          "Level-order Traversal",
+          "Post-order Traversal"
+        ],
+        "q1": [
+          "O(n^2)",
+          "O(1)",
+          "O(log n)",
+          "O(n)"
+        ]
+      },
+      "passed": false,
+      "submittedAt": "2026-09-04T11:33:01.111Z"
+    },
+    "att_1788521988941_905": {
+      "id": "att_1788521988941_905",
+      "testId": "test_demo_101",
+      "studentName": "harsha",
+      "rollNumber": "324UAM021",
+      "email": "chevuruharsha07@gmail.com",
+      "status": "attempting",
+      "currentQuestionIndex": 0,
+      "answeredCount": 0,
+      "remainingSeconds": 35,
+      "score": 0,
+      "totalMarks": 15,
+      "percentage": 0,
+      "startedAt": "2026-09-04T11:39:48.941Z",
+      "answers": {},
+      "shuffledQuestionIds": [
+        "q1",
+        "q4",
+        "q3",
+        "q5",
+        "q2"
+      ],
+      "shuffledOptionsMap": {
+        "q1": [
+          "O(log n)",
+          "O(n^2)",
+          "O(n)",
+          "O(1)"
+        ],
+        "q3": [
+          "Level-order Traversal",
+          "In-order Traversal",
+          "Post-order Traversal",
+          "Pre-order Traversal"
+        ],
+        "q2": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "att_1788523504284_13": {
+      "id": "att_1788523504284_13",
+      "testId": "test_1788523430942",
+      "studentName": "Vasu",
+      "rollNumber": "324UAM098",
+      "email": "",
+      "status": "completed",
+      "currentQuestionIndex": 4,
+      "answeredCount": 4,
+      "remainingSeconds": 45,
+      "score": 0,
+      "totalMarks": 15,
+      "percentage": 0,
+      "startedAt": "2026-09-04T12:05:04.285Z",
+      "answers": {
+        "q_1788523424771_3": {
+          "questionId": "q_1788523424771_3",
+          "selectedAnswer": "String",
+          "isCorrect": false,
+          "timeTaken": 17
+        },
+        "q_1788523424771_1": {
+          "questionId": "q_1788523424771_1",
+          "selectedAnswer": "O(log n)",
+          "isCorrect": false,
+          "timeTaken": 13
+        },
+        "q_1788523424771_5": {
+          "questionId": "q_1788523424771_5",
+          "selectedAnswer": "Legacy secondary pattern in Computer Science",
+          "isCorrect": false,
+          "timeTaken": 4
+        },
+        "q_1788523424771_2": {
+          "questionId": "q_1788523424771_2",
+          "selectedAnswer": "False",
+          "isCorrect": false,
+          "timeTaken": 1
+        }
+      },
+      "shuffledQuestionIds": [
+        "q_1788523424771_3",
+        "q_1788523424771_1",
+        "q_1788523424771_5",
+        "q_1788523424771_4",
+        "q_1788523424771_2"
+      ],
+      "shuffledOptionsMap": {
+        "q_1788523424771_1": [
+          "O(1)",
+          "O(n^2)",
+          "O(log n)",
+          "O(n)"
+        ],
+        "q_1788523424771_5": [
+          "Primary implementation mechanism of Data Structures - Stack & Queue",
+          "Legacy secondary pattern in Computer Science",
+          "Alternative non-standard approach",
+          "Deprecated legacy protocol"
+        ],
+        "q_1788523424771_2": [
+          "False",
+          "True"
+        ]
+      },
+      "passed": false,
+      "submittedAt": "2026-09-04T12:05:54.770Z"
+    }
+  }
+}
